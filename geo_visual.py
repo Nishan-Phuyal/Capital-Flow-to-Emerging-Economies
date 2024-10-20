@@ -5,7 +5,7 @@ import time
 
 
 
-df = pd.read_csv("Clean_Capital_long.csv")
+df = pd.read_csv("Clean_Capital_Flow_data.csv")
 df = df.pivot(index=['Countries', 'Date', "Year", "Month", "Alpha-3 code" ], columns='Indicies', values='Value').reset_index()
 df.columns = [col for col in df.columns]
 
