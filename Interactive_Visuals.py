@@ -33,7 +33,7 @@ def app():
 
             df = df.pivot(index=['Countries', 'Date', "Year", "Month" ], columns='Indicies', values='Value').reset_index()
 
-            country = st.selectbox("select a country", df["Countries"].unique())
+            country = st.selectbox("Select a country", df["Countries"].unique())
             
             df = df[df["Countries"] == country]
 
