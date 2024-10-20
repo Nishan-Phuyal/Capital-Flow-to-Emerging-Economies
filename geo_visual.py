@@ -49,7 +49,7 @@ def app():
                             )
 
         fig.update_layout(
-            title_x = 0.2,font=dict(color='white'),
+            title_x = 0.2,font=dict(color='blue'),
             width = 1000,
             height = 600
             )
