@@ -1,3 +1,5 @@
+*[Interactive-App](https://capital-flows-to-emerging-economies.streamlit.app/)*
+
 **Capital Flow Data: A Guide for Empirical Analysis and Real-Time Tracking**
 
 Robin Koepke and Simon Paetzold’s remarkable work has provided valuable insights for academics and policymakers exploring the determinants of capital flow to emerging economies. In this interactive visualization app, I present three insightful graphs for examining capital flows to these markets.
